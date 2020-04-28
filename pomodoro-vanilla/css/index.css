@@ -15,7 +15,7 @@ html, body {
 body {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 300;
-    background-color: #f03e3e;
+    background-color: lightsteelblue;
     color: white;
 }
 
@@ -29,7 +29,7 @@ h1 {
     font-style: italic; 
     font-weight: 300;
     font-size: 2rem;
-    color: #9b1f1f;
+    color: steelblue;
 }
 
 .duration .time {
@@ -51,6 +51,6 @@ h1 {
 }
 
 .button:hover {
-    border: 1px solid #9b1f1f;
-    color: #9b1f1f;
+    border: 1px solid steelblue;
+    color: steelblue;
 }
