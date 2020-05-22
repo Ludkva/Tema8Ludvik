@@ -1,3 +1,21 @@
+const RegSor = document.querySelector("#sor")
+const RegNord = document.querySelector("#nord")
+
+const sorlandet = () => {
+    map.flyTo({
+        center: [6.104629, 59.673982],
+        zoom: 4
+    })
+}
+const nordlandet = () => {
+    map.flyTo({
+        center: [7.941825, 68.963275 ],
+        zoom: 4
+    })
+}
+
+RegSor.onclick = sorlandet()
+RegNord.onclick = nordlandet()
 
 (function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.head.appendChild(r) })(window.document);
 var app = (function () {
@@ -357,4 +375,8 @@ var app = (function () {
     return app;
 
 }());
+
+
+
+
 //# sourceMappingURL=bundle.js.map
