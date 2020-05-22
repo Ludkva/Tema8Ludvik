@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Hummerfiske</title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./build/bundle.css" />
+
+    <script defer src="./build/bundle.js"></script>
+  </head>
+
+  <body>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+
+
+    <div id="regler"></div>
+    <div id='map' style='width: 400px; height: 400px;'>
+      <div id="knapper">
+        <button id="sor">Region Sør</button>
+        <button id="nord">Region Nord</button>
+      </div>
+    </div>
+    
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoibHVkdmlra3ZhbHN2aWsiLCJhIjoiY2s5NGFnOG45MDVjMzNvbnhoanBzb3BoNCJ9.UyR6o9v82LFpr3naB6_YLg';
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/satellite-v9',
+        zoom: 2.5,
+        center: [6.856797, 66.597289]
+      });
+</script>
+
+  </body>
+
+  </html>
