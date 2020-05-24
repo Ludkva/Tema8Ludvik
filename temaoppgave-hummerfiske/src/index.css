@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+    padding: 1rem;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100vw;
+}
+#map{
+    
+    height: 750px;
+    width: 650px;
+    
+}
+
+
+#regler{
+    height: 100vh;
+    width: 4rem;
+    background-color: green;
+    
+    
+}
+
+#knapper{
+    padding-bottom: 1rem;
+}
+
+#knapper button{
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid lightskyblue;
+    outline: none;
+    font-size: 20px;
+    padding: 12px 12px;
+    cursor: pointer;
+    box-shadow: 0 6px lightgray;
+}
+#knapper :hover{
+    background-color: skyblue;
+}
+#knapper :active{
+    background-color: skyblue;
+    box-shadow: 0 5px gray;
+    transform: translateY(2px);
+}

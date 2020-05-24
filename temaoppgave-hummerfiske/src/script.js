@@ -32,7 +32,7 @@ const flySor = () => {
 const flyNord = () => {
     map.flyTo({
         center: [13.071520 , 68.925976],
-        zoom: 2.95
+        zoom: 3.65
     })
     
 }
