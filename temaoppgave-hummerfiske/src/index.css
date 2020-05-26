@@ -7,7 +7,9 @@ html{
     width: 100vw;
     padding: 1rem;
 }
-
+h1{
+    position: absolute;
+}
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;

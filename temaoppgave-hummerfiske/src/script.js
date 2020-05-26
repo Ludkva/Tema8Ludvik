@@ -43,9 +43,9 @@ fetch('./Regler-json.json')
     .then( res => res.json)
     .then((res) => {
         const data = res.data;
-        getElement("region").innerHTML = 'Region ' + data.Region
-        getElement("tidsrom").innerHTML = 'Region ' + data.Tidsrom
-        getElement("minstemal").innerHTML = 'Region ' + data.Minstemål
-        getElement("nodutgang").innerHTML = 'Region ' + data.Nødutgang
-        getElement("soknad").innerHTML = 'Region ' + data.Søknad
+        getElementByID("region").innerHTML = 'Region ' + data.Region
+        getElementByID("tidsrom").innerHTML = 'Region ' + data.Tidsrom
+        getElementByID("minstemal").innerHTML = 'Region ' + data.Minstemål
+        getElementByID("nodutgang").innerHTML = 'Region ' + data.Nødutgang
+        getElementByID("soknad").innerHTML = 'Region ' + data.Søknad
     })
