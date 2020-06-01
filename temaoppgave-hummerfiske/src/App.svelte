@@ -78,7 +78,7 @@
 	</div>
 
 	<footer>
-	<h3>Developed by Ludvik Kvalsvik - Interaksjonsdesign 2020</h3>
+	<h3>Under development by Ludvik Kvalsvik - Interaksjonsdesign 2020</h3>
 	</footer>
 </main>
 
@@ -101,6 +101,7 @@
 		height: 60vh;
 		border-radius:16px;
 		margin-right: 2rem;
+		margin-bottom: .5rem;
 	}
 	.region{
 		border-radius: 16px;
